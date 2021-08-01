@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.feed{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}	
+.workshop-form{
+	width: 85%;
+	max-width: 600px;
+	background-image: url("../image/book1.jpg");
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	padding: 70px 150px;
+	box-sizing:border-box;
+	text-align:8px;
+	box-shadow:0 0 20px #00000b3;
+	
+}
+.workshop-form h1, p{
+	margin-top:0;
+	font-weight:200;
+	color: white;
+	text-align: center;
+}
+.txtb{
+	border:1px solid gray;
+	margin:8px 0;
+	padding:12px 18px;
+	border-radius: 8px;
+}
+.txtb label{
+	display:block;
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.txtb input,.txtb textarea{
+	width:100%;
+	border:none;
+	background:none;
+	color: white;
+	outline:none;
+	font-size:18px;
+	margin-top:6px;
+}
+.btn{
+	display:block;
+	background: #4E4E4E;
+	padding: 14px 0;
+	color:white;
+	text-transform: uppercase;
+	cursor:pointer;
+	margin-top:8px;
+	width:100%;
+	text-align:center;
+}
+
+.btn:hover{
+	background-color:#938D8D;
+}
